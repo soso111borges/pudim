@@ -1,1 +1,62 @@
+html{
+    font-size: 62.5%;
+}
 
+body{
+    margin: 10px;
+    font-family: "Lato", sans-serif;
+    color: #222
+}
+
+/* Tipografia */
+
+h1,h2{
+    font-family: "Roboto", sans-serif;
+}
+
+h1|{
+    font-size: 3.815rem;
+}
+
+h2{
+    font-size: 3.052rem;
+}
+
+p{
+    font-family: "Bitter", serif;
+    font-size: 2rem;
+    margin: 0;
+}
+
+ul li{
+    font-size: 1.8rem;
+
+}
+
+/* container */
+.container{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+img{
+    width: 100%;
+    margin-top: 1rem;
+}
+
+@media screen and (main-width:1024px){
+    h1{
+        font-size: 4.768rem;
+    }
+    h2{
+        font-size: 3.815rem;
+    }
+    P{
+        font-size: 2.5rem;
+    }
+    ul li{
+        font-size: 2.2rem;
+    }
+}
+
+    
